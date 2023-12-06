@@ -51,9 +51,10 @@ font-size: 19px;
 `
 const NavRoute = styled(Link)`
 color : white;
+text-decoration: none;
+
     &:hover{
         text-decoration: underline;
-        color:red;
     }
 
 `
